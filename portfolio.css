@@ -198,3 +198,232 @@ footer{
   text-align: center;
   margin-bottom: 20px;
 }
+
+
+/* ===== RESPONSIVE ADDITIONS ===== */
+/* Add these to the end of your existing CSS file */
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .div-11 {
+    padding: 60px 40px;
+  }
+  
+  .img1 {
+    margin-left: 600px;
+    margin-top: -150px;
+    width: 180px;
+    height: 180px;
+  }
+  
+  .div-2 {
+    margin: 60px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .div-20 p {
+    margin-right: 200px;
+  }
+  
+  .div-3 {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .input input {
+    margin-left: 300px;
+  }
+  
+  .div-4 button {
+    margin-left: 300px;
+  }
+  
+  .all-icon {
+    margin-left: 300px;
+  }
+  
+  .input img {
+    margin-left: 250px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .div1-10 ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .div-11 {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .img1 {
+    position: static;
+    margin: 20px auto;
+    float: none;
+    display: block;
+  }
+  
+  .div-2 {
+    margin: 30px 20px;
+  }
+  
+  .div-20 p {
+    margin-right: 0;
+    text-align: left;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .div-3 {
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 1.5rem;
+  }
+  
+  .div-33 {
+    font-size: 60px;
+  }
+  
+  .div-30 button {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .input input {
+    margin-left: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .input img {
+    position: static;
+    margin-left: 0;
+    display: none; /* Hide on mobile for better spacing */
+  }
+  
+  .div-4 button {
+    margin-left: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .all-icon {
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .div-4 {
+    padding: 20px;
+  }
+  
+  .div-4 p {
+    margin: 30px 0;
+  }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+  .div1-10 ul {
+    font-size: 14px;
+  }
+  
+  .div-11 h1 {
+    font-size: 24px;
+  }
+  
+  .div-11 p {
+    font-size: 16px;
+  }
+  
+  .img1 {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .div-222 {
+    font-size: 28px;
+  }
+  
+  .div-33 {
+    font-size: 40px;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .div-4 h1 {
+    font-size: 36px;
+  }
+  
+  .all-icon {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icones {
+    justify-content: center;
+  }
+}
+
+
+
+@media (min-width: 1440px) {
+  .div-11 {
+    padding: 100px;
+  }
+  
+  .div-2 {
+    margin: 120px;
+  }
+  
+  .div-3 {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.div-30 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  button {
+    min-height: 44px; 
+  }
+  
+  ul li {
+    padding: 8px 12px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; 
+  }
+  
+  .div-20 p, .div-30 p {
+    line-height: 1.5;
+  }
+}
