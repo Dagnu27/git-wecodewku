@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-1{
+  display: flex;
+   flex-direction: column;
+  flex-direction: column;
+}
+   .div-11 {
+    width: 100%;
+      padding: 80px;
+      float: left;
+      display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: rgb(241, 224, 224);
+   }
+.div1-10 ul  {
+  display: flex;
+    gap: 10px;
+     height: 50px;
+  background-color: black;
+  color: white;
+  text-align: end;
+  justify-content: end; 
+}
+  button{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(109, 109, 218) ;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+  color: white;
+  }
+  ul li{
+    margin-top:10px ;
+    margin-right: 20px;
+  }
+   ul  :hover {
+    color: grey ;
+   }
+   span{
+    color: aqua;
+   }
+.img1{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 800px;
+  margin-top: -170px;
+  float: left;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.div-222{
+  text-align: center;
+  margin-top: 40px;
+}
+.div-2{
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+  margin: 10px;
+  display: flex;
+  margin: 100px;
+
+}
+
+.div-20{
+  display: flex;
+  flex-direction: column;
+
+}
+.div-20 p{
+ align-items: left;
+ margin-right: 400px;
+ margin-top: 20px;
+}
+.div-20 h3{
+  font-weight: 500;
+}
+
+.div-21{
+  display: grid;
+  margin-left: 20px;
+  
+}
+
+.skills-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 10px 10px 10px 10px ;
+  gap: 2rem;
+
+}
+  .skill-item i{
+    display: inline;
+    justify-content: flex-start;
+    margin-top: 0.5px;
+  }
+.skill-item{
+  background-color: rgb(253, 245, 245);
+   width: 80px;
+   height: 20px;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+}
+
+.div-3 h3{
+  text-align: center;
+  font-size: large;
+}
+.div-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+ 
+  gap: 2rem;
+}
+.div-33{
+  text-align:center ;
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+.div-30 button{
+  width: 300px;
+
+}
+
+.input  img {
+  position: absolute;
+  align-items: center;
+  left: 111px;
+  padding: 12px;
+  margin-left: 350px;
+
+   
+}
+.input input {
+ height: 20px;
+ margin-left: 500px;
+ padding: 4px;
+ width: 300px;
+ height: 40px;
+}
+
+.div-4 h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+.div-4 p  {
+  margin: 50px;
+  text-align: center;
+ 
+}
+.div-4{
+  align-items: center;
+  background-color: rgb(223, 164, 164);
+}
+.div-4 button{
+  margin-left: 460px;
+  width: 330px;
+  margin-top: 20px;
+}
+.icones{
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+  
+  gap: 10px;
+}
+.icones img h6{
+display: flex;
+flex-direction: row;
+}
+
+.all-icon{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 450px;
+  margin-bottom: 40px;
+
+}
+
+footer{
+  align-items: center;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
